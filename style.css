@@ -1,143 +1,87 @@
-
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Open Sans', sans-serif;
-
+font-family: 'Poppins', sans-serif;
 
 }
+
 
 body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5NzU5ODcyOA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+background-color: black;
 
 }
 
 
-.containeir-Maior{
-
-    background: black;
-    opacity: 0.8;
-    border-radius: 25px;
-    padding: 20px;
-    width: 95%;
-    max-width: 450px;
-}
+.container-buttons{
+margin: 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
 
 
 
-.input-city {
- border: none;
- outline: none;
- padding:10px;
- border-radius: 25px;
- font-size: 20px;
- background-color: #7c7c7c2b;
- color: #ffffff;
- width: calc (100% - 100px);
 
 
 }
 
 
-.botão-buscar{
+
+button{
+background-color: #796b15;
 border: none;
-outline: none;
+border-radius: 5px;
+color: #000000;
 padding: 10px;
-border-radius: 50px;
-background-color:  #7c7c7c2b;
 cursor: pointer;
-float: right;
-
-}
-
-
-.img-buscar{
-
-
-    width:20px ;
-}
-
-
-
-
-.caixa-média{
-    margin-top: 30px;
-
-}
-
-
-
-
-
-
-
-.cidade{
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.temp{
-
-
-font-size: 20px;
-color: #ffffff;
-margin-top: 20px;
-
-}
-
-
-.caixa-menor{
-
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
-
-
-.texto-previsão{
-
-    color: #ffffff;
-    margin-left: 20px;
-}
-
-.umidade{
-
-    color: #ffffff;
-    margin-top: 20px;
-}
-
-
-.temp{
-font-size: 20px;
-color: #ffffff;
-margin-top: 20px;
-
-}
-
-
-.caixa-menor{
-    display: flex ;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.texto-previsão{
-
-margin-left: 20px;
-text-transform: capitalize;
+font-weight: bold;
+width: 110px;
 
 
 }
 
-.umidade{
-color: #ffffff;
-margin-top: 20px;
+
+button:hover{
+opacity: 0.8;
+}
+
+
+ul{
+
+
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+li{
+border: 2px solid #8133ff;
+border-radius: 5px;
+padding:5px;
+
+
 
 }
+
+img{
+
+width: 100%;
+border-radius: 5px;
+}
+
+
+p{
+    color: #ffff;
+}
+
+.item-price{
+font-weight: bold;
+color: #796b15; 
+
+}
+
